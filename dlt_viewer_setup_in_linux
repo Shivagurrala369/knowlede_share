@@ -1,0 +1,20 @@
+DLT-viewer 
+DLT Viewer helps in connects to the dlt-daemon and get the logs , which helps in analyzing the issues 
+Building in Linux 
+Install the pre-requisite libraries 
+• sudo apt install -y build-essential
+• sudo apt install -y qtcreator
+• sudo apt install -y qt5-default
+• sudo apt install -y libqt5serialport5-dev
+Clone the DLT-viewer
+• Create a directory DLT and get inside the directory  (mkdir DLT , cd DLT) 
+• Clone the DLT viewer form the git hub repository  (git clone  https://github.com/GENIVI/dlt-viewer.git)
+• Go inside the dlt-viewer folder
+• create the build directory and change  (mkdir build ; cd build)
+• qmake ../BuildDltViewer.pro
+• make
+• sudo make install
+Launching and configuration 
+• On successful installation the dlt-viewr can be triggered by typing dlt-viewer
+• Click on config → add ECU → TCP enter the IP address of Qemu to connect (EX : fd00::eb:f1 )
+You will start to see the DLT logs on successful connection 
