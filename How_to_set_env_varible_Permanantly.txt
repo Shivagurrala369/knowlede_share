@@ -1,0 +1,13 @@
+shiva@shiva:
+
+cd /etc + enter 
+
+sudo nano environment + enter 
+
+Create the env variables in opened files i.e workspace="/home/shiva/workspace"
+
+press Ctrl+x 
+
+Press y  
+
+Press enter , it will save the changes.
